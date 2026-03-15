@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vending_machine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vending_machine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13,428.360 ns"></ZoomStartTime>
+      <ZoomEndTime time="16,652.241 ns"></ZoomEndTime>
+      <Cursor1Time time="15,611.854 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/vending_machine/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/coin_in" type="array">
+      <obj_property name="ElementShortName">coin_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">coin_in[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/dispense" type="logic">
+      <obj_property name="ElementShortName">dispense</obj_property>
+      <obj_property name="ObjectShortName">dispense</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/change" type="logic">
+      <obj_property name="ElementShortName">change</obj_property>
+      <obj_property name="ObjectShortName">change</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/S_0" type="array">
+      <obj_property name="ElementShortName">S_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/S_5" type="array">
+      <obj_property name="ElementShortName">S_5[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_5[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/S_10" type="array">
+      <obj_property name="ElementShortName">S_10[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_10[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/S_15" type="array">
+      <obj_property name="ElementShortName">S_15[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_15[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine/S_20" type="array">
+      <obj_property name="ElementShortName">S_20[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_20[2:0]</obj_property>
+   </wvobject>
+</wave_config>
